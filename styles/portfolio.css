@@ -156,3 +156,18 @@ main {
     font-weight: 700;
     line-height: 30px;
 }
+
+
+/* wht i do design */
+#what-i-do{
+    padding: 30px 150px;
+}
+
+.skill-container{
+    display:flex;
+}
+
+.skill{
+    padding: 30px;
+    gap: 24px;
+}
