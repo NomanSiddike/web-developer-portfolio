@@ -219,16 +219,69 @@ main section {
     line-height: 28px;
 }
 
-.resume-container
-{
+.resume-container {
     display: flex;
     justify-content: space-between;
 }
 
-.resume-container hr{
+.resume-container hr {
     margin: 30px;
 }
 
-.download-cv{
+.download-cv {
     text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+/* footer design part */
+.footer-container {
+    background-color: #FFF8F3;
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    margin-top: 100px;
+    padding: 130px 200px;
+}
+
+.footer-intro {
+    color: var(--Dark-01, #181818);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer-description {
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.footer-coloum {
+    width: 50%;
+}
+
+.socal-media a{
+    margin-right: 25px;
+}
+
+.contact input[type="text"],input[type="email"] {
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color: #757575;
+    border-radius: 5px;
+    background: var(--White-Color, #FFF);
+    border: 0;
+    width: 100%
+}
+.contact input[type="submit"]{
+    display:block;
+    margin-top: 24px;
 }
