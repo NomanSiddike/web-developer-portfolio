@@ -1,3 +1,5 @@
+/* nav bar design */
+
 .nav-title {
     font-family: 'Open Sans', sans-serif;
     font-family: Open Sans;
@@ -11,6 +13,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 .text-color {
@@ -42,4 +45,22 @@ nav a {
     font-weight: 700;
     line-height: normal;
     padding: 15px 35px;
+}
+
+/* header design  */
+
+.header-part {
+    background-color: #FFF8F3;
+}
+
+.banner {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic {
+    width: 584px;
+    height: 676px;
+    flex-shrink: 0;
 }
